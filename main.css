@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background: rgb(255, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgb(0, 162, 255) 0%,
+    rgb(14, 0, 209) 100%
+  );
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+p > strong {
+  font-size: 1.25em;
+}
